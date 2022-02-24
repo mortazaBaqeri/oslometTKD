@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("images/wp1.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+main{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+/*----------Logos-------------*/
+.news{
+    width: 90%;
+    height: 130px;
+    border-radius: 15px;
+    margin: 10px 0 20px 0;
+
+/*  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("images/aapendag.png"); */
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/aapendag.png");;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.oslomet{
+    width: 90%;
+    height: auto;
+    margin: 10px 0 20px 0;
+}
+
+.item{
+    /* flex: 1 0 21%;  explanation below */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 70px;
+}
+
+.item > a > img{
+    width: 60px;
+}
+
+
+/* -------Texts -----------*/
+main > h1{
+    color: white;
+    margin: 60px 0 30px 0;
+    font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main > .container > .news > h2{
+    margin: 15px auto;
+    color: white;
+    font-size: x-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main > .container > .news > p{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main > .container > .oslomet > h2{
+    color: white;
+    font-size:  large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* footer */
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:100px;   /* Height of the footer */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+}

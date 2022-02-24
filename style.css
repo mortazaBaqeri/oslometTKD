@@ -33,7 +33,6 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 .oslomet{
@@ -64,7 +63,7 @@ main > h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-main > .container > .news > h2{
+main > .container > .news > a > h2{
     margin: 15px auto;
     color: white;
     font-size: x-large;
@@ -79,6 +78,13 @@ main > .container > .oslomet > h2{
     font-size:  large;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 /* footer */
 footer{
     position:absolute;
